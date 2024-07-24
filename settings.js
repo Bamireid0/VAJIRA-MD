@@ -6,20 +6,20 @@ function convertToBool(text, fault = 'true') {
 
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
-const BOTNAME = 'Bamireids_wife|-WA-BOT™';
+const BOTNAME = 'Chidera|-WA-BOT™';
 const FOOTERNAME = '> @bamireid';
-global.owner = process.env.OWNER_NUMBER  || '2347015983330' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '2349020665154,2348152119668' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=WYcwkJ6K#WX5hYdjYcpTLyQF9TZhbKCtY8by4sQRE5p2BcIWnqdY' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=bB0kVAaD#tqPLHR7evH5oCi0eAOWpCd5Qho2N7_v1WfDNowgiZs4' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "2347015983330,2348102925093" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "2349020665154,2348152119668" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'Bamireid' ,
+OWNER_NAME: process.env.OWNER_NAME || 'Chidera' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://bamireid0_user:iqn5HzAEzBx7G66ywhZuHewcdfd0xyIJ@dpg-cqbi3r8gph6c73c0pkvg-a.oregon-postgres.render.com/bamireid0' : process.env.POSTGRESQL_URL,
-FOOTER: process.env.FOOTER || '‌👨‍💻 Bamireids_wife 👨‍💻',    
+FOOTER: process.env.FOOTER || 'chidera 👨‍💻',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'EN' ,
 ANTI_BAD: process.env.ANTI_BAD || false  ,
@@ -45,5 +45,5 @@ AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || true  ,
 WELCOME:  process.env.WELCOME  || false ,
 ANTI_DELETE : process.env.ANTI_DELETE || true ,
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '2347015983330' : process.env.DELETEMSGSENDTO    
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '2349020665154,2348152119668' : process.env.DELETEMSGSENDTO    
 };
