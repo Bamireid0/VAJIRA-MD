@@ -6,20 +6,20 @@ function convertToBool(text, fault = 'true') {
 
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
-const BOTNAME = 'Chidera|-WA-BOT™';
+const BOTNAME = 'Bamireid.|-WA-BOT™';
 const FOOTERNAME = '> @bamireid';
-global.owner = process.env.OWNER_NUMBER  || '2349020665154,2348152119668' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '2348152119668' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=3dd1ETZI#8denzmzWST5aPa8AQaBVsVoRxEplL1YNo3ToYwc3SDk' ,
+SESSION_ID: process.env.SESSION_ID || '' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "2349020665154,2348152119668" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "2348152119668" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'Chidera' ,
+OWNER_NAME: process.env.OWNER_NAME || 'Bamireid.' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://bamireid0_user:iqn5HzAEzBx7G66ywhZuHewcdfd0xyIJ@dpg-cqbi3r8gph6c73c0pkvg-a.oregon-postgres.render.com/bamireid0' : process.env.POSTGRESQL_URL,
-FOOTER: process.env.FOOTER || 'chidera 👨‍💻',    
+FOOTER: process.env.FOOTER || 'Bamireid.',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'EN' ,
 ANTI_BAD: process.env.ANTI_BAD || false  ,
@@ -28,7 +28,7 @@ AUTO_TYPING:  process.env.AUTO_TYPING  || true  ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || true  ,       
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private' ,
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,        
@@ -45,5 +45,5 @@ AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || true  ,
 WELCOME:  process.env.WELCOME  || false ,
 ANTI_DELETE : process.env.ANTI_DELETE || true ,
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '2349020665154,2348152119668' : process.env.DELETEMSGSENDTO    
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '2348152119668' : process.env.DELETEMSGSENDTO    
 };
